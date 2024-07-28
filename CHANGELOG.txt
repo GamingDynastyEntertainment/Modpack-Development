@@ -1,0 +1,33 @@
+==== Forge Version 47.3.1 ====
+
+==== Modpack Version 1.2 ====
+
+==== Mod Changes ====
++ Added Yung Structures Addon for Loot Integrations (by someaddon)
+- Removed Endless Biomes (Caused many crashes and massive lag)
+
+==== Updated Mods ====
+*
+
+
+ 
+==== Config Changes ====
+* 
+*
+
+ 
+==== Important Changes ====
+* 
+
+ 
+==== Bug Fixes ====
+* 
+ 
+
+==== IMPORTANT ====
+
+AS ALWAYS, MAKE SURE TO BACK YOUR WORLD BEFORE UPDATING!
+
+==== Issue Reporting ====
+
+Please report any issues concerning any of our Modpacks here: https://github.com/GamingDynastyEntertainment/Modpack-Development/issues
