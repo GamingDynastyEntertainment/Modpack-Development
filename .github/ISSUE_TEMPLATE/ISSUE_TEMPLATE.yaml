@@ -107,4 +107,4 @@ body:
   - type: markdown
     id: dont-make-bug-reports
     attributes:
-      value: "**❗️ 1. Please dont' make bug reports about the Nether Portal not working in Monumental Experience, Use the Nether Painting from Dim Paintings Mod ❗️**"
+      value: "**❗️ Please dont' make Bug Reports about the Nether Portal not working in Monumental Experience, Use the Nether Painting from Dim Paintings Mod ❗️**"
