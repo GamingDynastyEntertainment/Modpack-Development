@@ -1,0 +1,971 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "simple_storage_network"
+	group: "4764DDDD84D4A3BB"
+	icon: "storagenetwork:request"
+	id: "5164395CDB9E390D"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: 0.1785714285714306d
+			y: -10.089285714285715d
+		}
+		{
+			click: "https://www.youtube.com/watch?v=dzK5CIa5qFE"
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: ["You&cTube&r Tutorial"]
+			image: "kubejs:textures/item/ssn_tutorial.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 7.0d
+			y: -5.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3E32BEF58DB47630"]
+			description: [
+				"The &2Simple Storage Network&r (&o&bSSN&r) mod adds a &dnetwork-based&r storage system to the game."
+				""
+				"With this mod, players can &o&beasily&r store and retrieve items from anywhere in their base using a central &o&bnetwork interface&r."
+				""
+				"The &o&bSSN&r mod allows players to create storage blocks and connect them to a &o&bcentral network&r using &9cables&r. Once connected, players can access the storage blocks from anywhere in their base by simply interacting with the &o&bnetwork interface&r."
+				""
+				"The mod also includes an &o&bauto-crafting system&r that allows players to automate the crafting of items using the resources stored in the network. This can be a &o&bhuge time-saver&r, especially for players who need to craft large quantities of items."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/ssn.png"
+				}
+			}
+			id: "15F6FC38CA52AAAB"
+			min_width: 300
+			rewards: [{
+				id: "70B21002B0D96887"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&n&oStorage Controller&r quest*"
+			tasks: [{
+				id: "1B9DCF947B5E3F70"
+				type: "checkmark"
+			}]
+			title: "Welcome to &eSimple Storage Network"
+			x: -0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["26FBC6FA4A9A4BC8"]
+			description: [
+				"&2Storage Request Table&r: An interface that &o&ballows access&r to any item present in &einventories&r linked to the &o&bSSN&r with &9Link Cables&r, and includes a built-in &o&b3x3&r crafting interface."
+				""
+				"Multiple &2Storage Request Tables&r can be used in an &o&bSSN&r."
+			]
+			id: "2A4325EE4954C6F5"
+			min_width: 300
+			rewards: [
+				{
+					id: "6DBF23D94BBF9F87"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0D2567CF36458EF8"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "5F4D48B311FC5F55"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "694B558820178D61"
+				item: "storagenetwork:request"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["295FF29A2156F319"]
+			description: [
+				"&2Storage Network Root&r: An essential component that can only be used &nonce&r per &o&bSSN&r."
+				""
+				"Has &nno&r functionality by itself, but is used to &o&bconnec&rt &dStorage Remotes&r to a specific &o&bSSN&r."
+			]
+			id: "78FD41373672413C"
+			min_width: 300
+			rewards: [
+				{
+					id: "50C1799346CBCFE2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2F7856E019B1AC6E"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+				{
+					id: "113EE4B4EB716E86"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2530E2AD636198B6"
+				item: "storagenetwork:master"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["295FF29A2156F319"]
+			description: ["&2Storage Inventory&r views the network &einventory&r with full access to &o&bscroll&r, &o&bwithdraw&r, and &o&bdeposit&r items, &nwithout&r a &9Crafting&r grid."]
+			id: "26FBC6FA4A9A4BC8"
+			min_width: 300
+			rewards: [
+				{
+					id: "70E11168CE7B9746"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45B26D27E9E04443"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "6D19AAB5C17FB6EC"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "51317CFFA1F0A0E0"
+				item: "storagenetwork:inventory"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["295FF29A2156F319"]
+			description: [
+				"Each &2Link Cable&r connects one &einventory&r to the &o&bSSN&r."
+				""
+				"&2Link Cables&r are the main &o&bconnection point&r for &einventories&r in your &o&bnetwork&r, with &nno&r controls for &o&bpriority&r or &o&bautomation&r."
+				""
+				"Upgrade to &3Filtered&r version."
+			]
+			id: "0BDC439F3B151A0C"
+			min_width: 300
+			rewards: [
+				{
+					id: "1C0883BB57F2DDFC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "289D614D53DC76AF"
+					item: "storagenetwork:kabel"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "735BC04FA9DAB57F"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				count: 4L
+				id: "4934B465DD309AE9"
+				item: "storagenetwork:storage_kabel"
+				title: "Link Cable"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"26FBC6FA4A9A4BC8"
+				"1E855199C9EBFEFF"
+			]
+			description: [
+				"&2Network Exchange Interface&r exposes the network and acts as a &o&bcontroller&r for other &o&bautomation&r systems or storage solutions."
+				""
+				"For example, a normal &3Hopper&r placed pointing at an &2Exchange Interface&r on a network, and it will &o&binsert&r the items into valid network slots as normal, similar to the &9Import Cable&r."
+				""
+				"A &3Hopper&r &nbelow&r will export arbitrary items. Try this with other storage mods!"
+			]
+			id: "0CC022144397547A"
+			min_width: 350
+			rewards: [
+				{
+					id: "1BDB23B43889D5D8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D31A00A2C09B891"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "42717F051E32203A"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "628E24358F88C52E"
+				item: "storagenetwork:exchange"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"26FBC6FA4A9A4BC8"
+				"2E3320935758BDDA"
+			]
+			description: [
+				"&2Network Collection Interface&r exposes the network and acts as an &o&binsert-only&r controller for other &o&bautomation&r systems or storage solutions."
+				""
+				"For example, a normal &3Hopper&r placed pointing at an &9Exchange Interface&r on a network, and it will &o&binsert&r the items into valid network slots as normal, &o&bsimilar&r to the &aImport Cable&r."
+				""
+				"Does &nnot allow&r any item &o&bextraction&r. Try this with other storage mods!"
+			]
+			id: "35D47BE0BF13D32B"
+			min_width: 320
+			rewards: [
+				{
+					id: "6293BAECFBE21E50"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "263A729CC8C0C608"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "11394628AEDD5AEC"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6B5854EA9D57D264"
+				item: "storagenetwork:collector"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["295FF29A2156F319"]
+			description: [
+				"&2Import Cable&r constantly &9import&r from the &o&bconnected&r &einventory&r into the &o&bSSN&r."
+				""
+				"Upgrade to &3filtered&r version for more &o&bautomation&r."
+			]
+			id: "589D7AFBB805B692"
+			min_width: 300
+			rewards: [
+				{
+					id: "77FFEE2220CC8EDC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5FAA578C8DBE9A02"
+					item: "cyclic:hopper"
+					type: "item"
+				}
+				{
+					id: "7DC6E23C6C45C7F6"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "31370D20C5CC30D7"
+				item: "storagenetwork:import_kabel"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["589D7AFBB805B692"]
+			description: [
+				"&2Filtered Import Cable&r constantly &9import&r from the &o&bconnected&r &einventory&r into the &o&bSSN&r."
+				""
+				"They can be customized with &aupgrades&r, an item &3filter&r, and &credstone&r controls in the &o&bGUI&r control screen. &3Item Filter Allow&r means &nonly&r items matching the filter will &o&bpass&r, &7Ignore mode&r means pull &nanything&r but ignore what is in the &o&blist&r."
+				""
+				"Importing the filter &o&bwipes&r and &o&breplaces&r it with &einventory&r contents."
+			]
+			id: "420DEAD0C5B1BFE1"
+			min_width: 300
+			rewards: [
+				{
+					id: "40AB5517526BE685"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "389FC3971ED17368"
+					item: "minecraft:barrel"
+					type: "item"
+				}
+				{
+					id: "07F78E4889149F6F"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "021FB8549E38E1E8"
+				item: "storagenetwork:import_filter_kabel"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0BDC439F3B151A0C"]
+			description: [
+				"Each &2Link Cable&r connects one &einventory&r to the &o&bSSN&r."
+				""
+				"Has &o&bpriority&r settings for &o&bsort&r order among other export cables, and accepts &aupgrades&r."
+			]
+			id: "41EC85953EA15121"
+			min_width: 300
+			rewards: [
+				{
+					id: "74F2B12E12CDF09B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "106F480DC3DF0A90"
+					item: "minecraft:observer"
+					type: "item"
+				}
+				{
+					id: "320DBB883708ABB9"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "75A4B65B0F9CC43B"
+				item: "storagenetwork:filter_kabel"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["295FF29A2156F319"]
+			description: [
+				"While connected to an &einventory&r, &2Export Cable&r &o&bexport&r items from the &o&bSSN&r to the target &einventory&r."
+				""
+				"Has &o&bpriority&r settings for sort order among other export cables, and optional &credstone&r control. "
+				""
+				"Accepts &aupgrades&r."
+			]
+			id: "2520FDFDE976DBA0"
+			min_width: 250
+			rewards: [
+				{
+					id: "2C5A6B40F3E1D8A3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2B0F075A2E649DAA"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					id: "59095245E4A5D5D9"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				count: 4L
+				id: "42737289FB6B9B49"
+				item: "storagenetwork:export_kabel"
+				title: "Export Cable"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["295FF29A2156F319"]
+			description: ["&2Stack Upgrade&r increases the &o&bstack size&r of an operation."]
+			id: "1E855199C9EBFEFF"
+			min_width: 250
+			rewards: [
+				{
+					id: "7003727671578359"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77E63824784CC91F"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "2DC880FCF5C810C5"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2BD8345E4F5A0FF2"
+				item: "storagenetwork:stack_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["295FF29A2156F319"]
+			description: ["&2Speed Upgrade&r can be added to &9Import&r and &cExport&r cables to &nspeed them up&r."]
+			id: "2E3320935758BDDA"
+			min_width: 250
+			rewards: [
+				{
+					id: "3EA4A7AC5B69CA40"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47004769C2ECE48E"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "6FDD7A9827F3C8A2"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1A6D60078ED0A5AB"
+				item: "storagenetwork:speed_upgrade"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["78FD41373672413C"]
+			description: [
+				"&2Storage Remote&r gives you &o&bfull remote network access&r, &nnot limited&r by &o&brange&r or &o&bdimension&r."
+				""
+				"Similar to the &aStorage Inventory&r. Open this also using the &3Key Binding&r."
+			]
+			id: "555BCDBB0ECF3ADD"
+			min_width: 320
+			rewards: [
+				{
+					id: "6A35DC1121C872EF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FED66949B567EB1"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "6B6DED264C843087"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7E2C2656B756EBD6"
+				item: "storagenetwork:inventory_remote"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["78FD41373672413C"]
+			description: [
+				"&2Crafting Remote&r gives you &o&bfull network access&r, &nnot limited&r by &o&brange&r or &o&bdimension&r."
+				""
+				"Has an &o&bintegrated&r &9Crafting&r grid. Similar to the &6Request Table&r."
+				""
+				"Open this also using the &3Key Binding&r"
+			]
+			id: "490B909C901DE092"
+			min_width: 300
+			rewards: [
+				{
+					id: "6848C375EACE39DD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "65E2342A664E7440"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "407C3322A1F909F3"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "21C4493F95B74725"
+				item: "storagenetwork:crafting_remote"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"555BCDBB0ECF3ADD"
+				"2A4325EE4954C6F5"
+			]
+			description: [
+				"&2Network Builder Remote&r binds as normal but &ndoes not&r have a &o&bscreen&r."
+				""
+				"Instead, it &o&bsearches&r for the block you &aclicked&r on, and tries to build a &o&bcopy&r of it using a matching item in the &o&bnetwork&r."
+			]
+			id: "04065B7B9F95462C"
+			min_width: 300
+			rewards: [
+				{
+					id: "14DD92DBC5C0C636"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "540AD289AE50B0CD"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "0F54A95F9F8D9CBB"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2BAB5E02567D3C70"
+				item: "storagenetwork:builder_remote"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["15F6FC38CA52AAAB"]
+			description: ["&2Network Cable&r serves &nno&r function besides &o&blinking&r other components together and has &nno&r functions of its own."]
+			id: "295FF29A2156F319"
+			min_width: 250
+			rewards: [
+				{
+					id: "077D7D1E7FFF1B21"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "48CC1793F802A4AB"
+					item: "storagenetwork:kabel"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1E3E385EB377519C"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "2900086A4378F536"
+				item: "storagenetwork:kabel"
+				type: "item"
+			}]
+			title: "Network Cable"
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["295FF29A2156F319"]
+			description: [
+				"&2Slowness Upgrade&r can be placed in the &9import&r or &cexporting&r cables."
+				""
+				"Increases ticks between each operation which &o&bslows down&r the overall process."
+			]
+			id: "6DB83B68844C0A3C"
+			min_width: 250
+			rewards: [
+				{
+					id: "470D6E856AECEE70"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77CA5D302343D1F9"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "6F9E567F4C183B7F"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "439D58F33E693420"
+				item: "storagenetwork:slow_upgrade"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["295FF29A2156F319"]
+			description: [
+				"&2Stock Upgrade&r can only be used for &cExport&r cables."
+				""
+				"Sets a &nmaximum&r of a &o&bcertain item&r that can be &o&bexported&r to the connected &einventory&r."
+			]
+			id: "43028A73ECA77D00"
+			min_width: 250
+			rewards: [
+				{
+					id: "65E513C042931B02"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1714297ABD3FC477"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "5B1817F5138BC66E"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "03486A4346D3D927"
+				item: "storagenetwork:stock_upgrade"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["295FF29A2156F319"]
+			description: [
+				"&2Singleton Upgrade&r can be placed in the &9import&r or &cexporting&r cables."
+				""
+				"Decreases it to pulling &o&b1&r every time the cable fires instead of &o&b4&r. Will &o&boverride&r the &eStack Upgrade&r if both are present."
+			]
+			id: "149BDD5FF0CBE213"
+			min_width: 250
+			rewards: [
+				{
+					id: "483D28C536176B5E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "492D78FBAF4BE831"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "681D0B057C57269B"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3A428EA553125365"
+				item: "storagenetwork:single_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["295FF29A2156F319"]
+			description: ["&2Operation Upgrade&r can &o&bstart&r or &o&bstop&r the operation of &9import&r or &cexport&r cables depending on whether a &o&bcertain amount&r of a &o&bcertain item&r is present in the connected &einventory&r."]
+			id: "3C3537828193EE4F"
+			min_width: 250
+			rewards: [
+				{
+					id: "339A7830D9087C42"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25AC26993086D9BA"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "6FB4DFE5F55EADF3"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5274F31A495934B0"
+				item: "storagenetwork:operation_upgrade"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["555BCDBB0ECF3ADD"]
+			description: [
+				"&2Network Picker Remote&r binds as normal but &ndoes not&r have a &o&bscreen&r."
+				""
+				"Instead, &o&btap&r this item in the &o&bworld&r on a &o&bblock&r. This will request either &o&b1&r or a &o&bfull stack&r of that block, &ndepending on&r if you are &acrouching&r."
+			]
+			id: "36F61DF4D7B0687B"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "15D84ADC0004E862"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E5EA06F14C10E1D"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+				{
+					id: "1E83C26F5D0FB9A6"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6F85DBC3D6EC1299"
+				item: "storagenetwork:picker_remote"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["555BCDBB0ECF3ADD"]
+			description: [
+				"Bind &2Network Collector Remote&r to the &o&bnetwork&r as normal, it works &banywhere&r in your &einventory&r (including &o&bcurios&r but &nnot ender chest&r), &nno need&r to hold it in &o&bhand&r or &o&bhotbar&r."
+				""
+				"When you pickup any item, this will insert that item into the network if possible."
+			]
+			id: "355653C2099C4E10"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "26591B917E3EE37C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67DE81FCF245BBB1"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+				{
+					id: "78E40C601B6B6126"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "35C827C1AAD7176D"
+				item: "storagenetwork:collector_remote"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["295FF29A2156F319"]
+			description: [
+				"&2Cables&r are sorted by &o&bpriority&r."
+				""
+				"If no &o&bGUI &ris provided, for example with &aLink Cables&r, the value for that cable is &o&bzero&r. When user is doing an &9insert&r/&cextract&r request to the &o&bSSN&r, it will keep attempting to use &o&bsmallest-prioritynodes&r until the request is &o&bcomplete&r."
+				""
+				"For &9import&r/&cexport&r &o&bautomation&r, all cables are processed and &o&bpriority determines&r the order each time, one &o&bstack-action per-tick per-cable&r."
+				""
+				"• &9Sort cables&r by &o&bpriority&r so &nlowest&r numbers are &nfirst&r"
+				"• &eEqual numbers&r are &o&btogether&r"
+				"• &dEx&r: [&o&b-2&r, &o&b-2&r, &o&b0&r, &o&b0&r, &o&b1&r, &o&b2&r, &o&b4&r]"
+				"• &6One by one&r use the nodes in this order"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "storagenetwork:block/collector"
+				}
+			}
+			id: "1BC56205B90967A4"
+			min_width: 300
+			rewards: [{
+				id: "3F5316A9B0AFFDF5"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1DBE3220772F9C6F"
+				type: "checkmark"
+			}]
+			title: "Priority"
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["78FD41373672413C"]
+			description: [
+				"Any &o&bSSN&r is only running in the world if its &dRoot Node&r is in a &o&bloaded&r &o&echunk&r of the world."
+				""
+				"Endpoint cables in the network such as &2Link cables&r may be in a &o&bdifferent&r &o&echunk&r than the &o&bSSN&r root, and may be &o&bindividually disconnected&r depending on their own &achunk&r. You can have multiple networks per &o&echunk&r, &o&bworld&r, or &o&bdimension&r."
+				""
+				"• &1Spread Example&r: So it's &o&bpossible&r for a &o&bSSN&r to have &b20&r &2Link cables&r but &o&b5&r are in an &o&bunloaded&r &o&echunk&r. &o&bSSN&r &nscreens&r/&nremotes&r will still open since the root is &o&bloaded&r, any contents from those &o&bunloaded&r cables are not seen."
+				""
+				"• &4Remote Example&r: I build my &o&bSSN&r far away from &o&bspawn&r &o&echunks&r, in a distant"
+				"ocean base. When I go to the &cNether&r, the &aOverworld&r &o&echunks&r with the &dRoot&r block are &o&bunloaded&r, so my &6Remotes&r &ncannot connect&r."
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "storagenetwork:block/inventory"
+				}
+			}
+			id: "63D1D97AA7C4B3DC"
+			min_width: 400
+			rewards: [{
+				id: "4B4856AE3104E856"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4CE7E65FF27D8404"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["555BCDBB0ECF3ADD"]
+			description: [
+				"Use your &o&bnew&r &6Remote&r on the &dRoot&r to set up its &o&bSSN&r binding."
+				""
+				"Each &6Remote&r is bound to a &o&broot nodes&r exact (&o&bx&r,&o&by&r,&o&bz&r,&o&bd&r) position, and can access the &o&bSSN&r &einventory&r as long as the &o&broot&r not is &nunbroken&r and in a &nloaded chunk&r."
+				""
+				"They are &5wireless&r with an &o&bunbound range&r."
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "storagenetwork:block/request"
+				}
+			}
+			id: "22D1DBA4344BEFD7"
+			min_width: 300
+			rewards: [{
+				id: "178C5B2DE39DD2E3"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5729A98D81269765"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+	]
+	title: "&e&oSimple Storage Network"
+}
