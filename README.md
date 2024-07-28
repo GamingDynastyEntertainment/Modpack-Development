@@ -1,2 +1,2 @@
 # Modpack-Development
-Welcome to the New Issue tracker for Modpacks Develop by GeekTechMedia, DexxKnight1, and ModernGamingWorld
+Welcome to the new issue tracker for modpacks. Developed by GeekTechMedia, DexxKnight1, and ModernGamingWorld.
