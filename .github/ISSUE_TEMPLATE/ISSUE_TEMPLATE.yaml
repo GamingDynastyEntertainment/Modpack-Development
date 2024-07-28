@@ -103,7 +103,7 @@ body:
   - type: markdown
     id: logs
     attributes:
-      value: "**❗️ PLEASE PROVIDE ANY TYPE OF LOGS. REPORTS WITHOUT LOGS OR CRASH-REPORTS WILL BE CLOSED WITHOUT REVIEWING ❗️**"
+      value: "**❗️ Please provide any type of log. Any reports without logs or crash reports will be closed without a review. ❗️**"
   - type: markdown
     id: dont-make-bug-reports
     attributes:
