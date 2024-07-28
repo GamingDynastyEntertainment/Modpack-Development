@@ -19,6 +19,7 @@ body:
       options:
         - label: Did you alter the modpack in anyway by adding mods that were not included by the modpack owner?
         - label: Did this issue happen on Single-Player?
+          required: true
         - label: Did this issue happen on Mulit-Player?
           required: true
         - label: Are you crashing? If so could you please provide your crash reports down below.
