@@ -1,4 +1,4 @@
-**==== Forge Version 47.3.1 ====**
+==== Forge Version 47.3.1 ====
 
 ==== Modpack Version 1.2 ====
 
