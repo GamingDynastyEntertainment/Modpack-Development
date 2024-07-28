@@ -1,0 +1,108 @@
+name: 🐞 Bug / Crash Report
+description: Create a report to help us improve
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    id: title
+    attributes:
+      value: "**❗️ Name your issue properly! Don't leave title empty. ❗️**"
+  - type: markdown
+    id: title
+    attributes:
+      value: "**❗️ We do not provide support to modified modpacks. ❗️**"
+  - type: checkboxes
+    id: general-info
+    attributes:
+      label: General Info
+      description: You may select more than one.
+      options:
+        - label: I didn't added any mods
+        - label: I get this issue consistently in single-player
+        - label: I get this issue consistently in multi-player
+          required: true
+        - label: I am crashing and can provide my crash report(s)
+        - label: I am using the latest version of the modpack
+  - type: checkboxes
+    id: Modpack
+    attributes:
+      label: Modpack
+      description: Please select what modpack this issue is for.
+      options:
+        - label: Age of Fate - 1.16.5
+        - label: Age of Fate - 1.19.2
+        - label: Age of Fate - The Frozen Hope - 1.16.5
+        - label: Age of Fate - The Frozen Hope - 1.18.2
+        - label: Cozy Legends - 1.19.2
+        - label: Cozy Legends - 1.20.1
+        - label: Crafting Legends - 1.19.2
+        - label: Crafting Legends - 1.20.1
+        - label: Dimensions & Dungeoneering - 1.16.5
+        - label: Dimensions & Dungeoneering - 1.19.2
+        - label: Dimensions & Dungeoneering - 1.20.1
+        - label: Fun Filled Adventure - 1.19.2
+        - label: Fun Filed Adventure - 1.20.1
+        - label: Isola - 1.19.2
+        - label: Isola - 1.20.1
+        - label: Jurassic World Reborn II- 1.12.2
+        - label: Jurassic World Reborn 2 LITE - 1.12.2
+        - label: Monumental Experience - 1.19.2
+        - label: Monumental Experience - 1.20.1
+        - label: Monumental Experience - 1.21
+        - label: Monumental Experience - In the Sky - 1.20.1
+        - label: Overloaded - 1.19.2
+        - label: Overloaded - 1.20.1
+        - label: Overloaded Lite - 1.19.2
+        - label: Overloaded Lite - 1.20.1
+        - label: Tech Revolution - 1.19.2
+    validations:
+      required: false
+  - type: input
+    id: launcher-info
+    attributes:
+      label: Your launcher
+      placeholder: ex. Curseforge, GDL, ATLauncher, MultiMC
+    validations:
+      required: true
+  - type: input
+    id: modpack-info
+    attributes:
+      label: Modpack version
+      placeholder: ex. 1.5.1
+    validations:
+      required: true
+  
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: Describe your issue
+      description: A clear and concise description of what the bug is.
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue-reproduce
+    attributes:
+      label: Steps to reproduce the issue
+      description: A clear and concise description of what the bug is.
+      placeholder: 1. Go to...; 2. Click on...; 3. Use that...
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Additional Information
+      description: Please post crash report(located in crash-reports folder) and latest.log(located in logs folder), screenshots, etc. here. (use Pastebin.com, gist.github.com or Imgur.com accordingly). 
+      placeholder: If the pack is crashing please provide the crash report or latest.log from the crash-reports/logs folder of your instance.
+    validations:
+      required: true
+  - type: markdown
+    id: logs
+    attributes:
+      value: "**❗️ PLEASE PROVIDE ANY TYPE OF LOGS. REPORTS WITHOUT LOGS OR CRASH-REPORTS WILL BE CLOSED WITHOUT REVIEWING ❗️**"
+  - type: markdown
+    id: dont-make-bug-reports
+    attributes:
+      value: "**❗️ 1. Please dont' make bug reports about the Nether Portal not working in Monumental Experience, Use the Nether Painting from Dim Paintings Mod ❗️**"
