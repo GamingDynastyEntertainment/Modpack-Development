@@ -17,12 +17,12 @@ body:
       label: General Info
       description: You may select more than one.
       options:
-        - label: I didn't added any mods
-        - label: I get this issue consistently in single-player
-        - label: I get this issue consistently in multi-player
+        - label: Did you alter the modpack in anyway by adding mods that were not included by the modpack owner?
+        - label: Did this issue happen on Single-Player?
+        - label: Did this issue happen on Mulit-Player?
           required: true
-        - label: I am crashing and can provide my crash report(s)
-        - label: I am using the latest version of the modpack
+        - label: Are you crashing? If so could you please provide your crash reports down below.
+        - label: Are you using the Latest modpack version? If so please post the Modpack version below.
   - type: checkboxes
     id: Modpack
     attributes:
