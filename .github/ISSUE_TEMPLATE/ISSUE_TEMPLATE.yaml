@@ -69,7 +69,7 @@ body:
     id: modpack-info
     attributes:
       label: Modpack version
-      placeholder: ex. 1.5.1
+      placeholder: ex. 1.5.1, Don't use just latest version!!!
     validations:
       required: true
   
