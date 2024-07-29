@@ -1,0 +1,14 @@
+#When running a machine, should the machine's sound be played?
+"Play Machine Sounds" = false
+
+#General Client Settings
+[General]
+	#When rendering water in tanks, use the water's biome appropriate colour, instead of the generic universal water colour.
+	"Use Biome Water Colour" = true
+	#When displaying larger numbers on a tooltip of an item you hover over, change the units to keep the numbers small (eg 1 B instead of 1000 mB).
+	"Shorten Item Tooltip Values" = true
+	#When displaying larger numbers on a tooltip for the machines power bar, change the units to keep the numbers small (eg 1 kFE instead of 1000 FE).
+	"Shorten Power Bar Values" = true
+	#When displaying larger numbers on a tooltip for a tank you hovered over, change the units to keep the numbers small (eg 1 B instead of 1000 mB).
+	"Shorten Tank Tooltip Values" = true
+

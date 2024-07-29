@@ -1,0 +1,15 @@
+
+["Transdimensional Machines Config"]
+
+	["Transdimensional Machines Config".Quarry]
+		#Base Energy Needed (in FE/t)
+		"Energy Consumption" = 32500
+		#Time To Mine (in ticks)
+		#Range: 10 ~ 200
+		"Time To Mine" = 10
+		#Chance To Find Ore (default value is 0.07 and mean 7% chance to find ore)
+		#Range: 0.0 ~ 1.0
+		"Ore Find Chance" = 0.07
+		#Blacklisted Ores (Only work for ores, example: ["iron_ore", "coal_ore"])
+		"Blacklisted Ores" = []
+

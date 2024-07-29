@@ -1,0 +1,448 @@
+
+#General Settings
+[General]
+	#Allow pipes to extract fluids from fluid input tanks. Disabling this means that only fluid outputs can be extracted from Tile Entites
+	"Allow Extraction from Input Tanks" = false
+	#Damage taken from standing in an acid.
+	#Range: 0.0 ~ 3.4028234663852886E38
+	"Acid Damage" = 3.0
+	#Duration of fire on an entity for stepping into an acid.
+	#Range: > 0
+	"Acid Fire Duration" = 4
+	#How many uses a Solarium tool can have before the protective sheath is depleted
+	#Range: > 0
+	"Solarium Protective Sheath" = 2560
+	#The percent chance (as a decimal) of a Solarium sheath regenerating on a tick when exposed to skylight
+	#Range: 0.0 ~ 1.0
+	"Solarium Sheath Regeneration Chance" = 0.0175
+	#Speed of which progress should be undone at a machine when the machine loses power/FE
+	#Range: 1 ~ 20
+	"Decrement Speed On No Power" = 5
+
+#Food Settings
+[Food]
+	#Nutritional value of Cooked Rice.
+	#Range: > 1
+	"Cooked Rice Nutrition" = 5
+	#Saturation of Cooked Rice.
+	#Range: 1.1754943508222875E-38 ~ 3.4028234663852886E38
+	"Cooked Rice Saturation" = 0.30000001192092896
+	#Chance of Rice crop going to next life stage.
+	#Range: 1.1754943508222875E-38 ~ 1.0
+	"Rice Tick Chance" = 0.5
+
+#World Generation Settings
+["World Generation"]
+
+	#Feature Generation
+	["World Generation"."Feature Generation"]
+		#Enable/Disable Logging of Word Generation information for Voluminous Energy features and Ores
+		"Enable Logging" = false
+
+	#Climate Spawns
+	["World Generation"."Climate Spawns"]
+		#To prevent continuous valid chunks, 'punch holes' by removing spawns from valid chunks (Ex: Reduce non-water or lava appearances for the Dimensional Laser)
+		"Punch Holes in Climate Spawns" = true
+		#Multiply cumulative climate value by this multiplier 
+		#Range: > 1
+		"Climate Spawns Hole Punch Multiplier" = 10000
+		#Value to be used for binding the RNG 
+		#Range: 10 ~ 10000
+		"Climate Spawns Hole Punch Bounding" = 100
+		#If generated number is smaller than this value, the chunk will be 'hole punched'.
+		#Range: 1 ~ 10000
+		"Climate Spawns Hole Punch Number Must Be Larger Than" = 47
+
+	#Ore Generation
+	["World Generation"."Ore Generation"]
+
+		#Saltpeter Ore Blob Settings
+		["World Generation"."Ore Generation"."Saltpeter Ore Settings"]
+			#Range: > 0
+			"Saltpeter Size" = 33
+			#Chance that that the generated blob will be discarded (ungenerated) if exposed to air
+			#Range: 0.0 ~ 1.0
+			"Saltpeter Exposed Discard Chance" = 0.0
+
+		#Bauxite Ore Settings
+		["World Generation"."Ore Generation"."Bauxite Ore Settings"]
+			#Range: > 0
+			"Bauxite Size" = 8
+			#Chance that that the generated blob will be discarded (ungenerated) if exposed to air
+			#Range: 0.0 ~ 1.0
+			"Bauxite Exposed Discard Chance" = 0.0
+
+		#Cinnabar Ore Settings
+		["World Generation"."Ore Generation"."Cinnabar Ore Settings"]
+			#Range: > 0
+			"Cinnabar Size" = 6
+			#Chance that that the generated blob will be discarded (ungenerated) if exposed to air
+			#Range: 0.0 ~ 1.0
+			"Cinnabar Exposed Discard Chance" = 0.0
+
+		#Rutile Ore Settings
+		["World Generation"."Ore Generation"."Rutile Ore Settings"]
+			#Range: > 0
+			"Rutile Size" = 4
+			#Chance that that the generated blob will be discarded (ungenerated) if exposed to air
+			#Range: 0.0 ~ 1.0
+			"Rutile Exposed Discard Chance" = 0.75
+
+		#Galena Ore Settings
+		["World Generation"."Ore Generation"."Galena Ore Settings"]
+			#Range: > 0
+			"Galena Size" = 6
+			#Range: 0 ~ 16
+			"Galena Light Glow Level" = 4
+			#Chance that that the generated blob will be discarded (ungenerated) if exposed to air
+			#Range: 0.0 ~ 1.0
+			"Galena Exposed Discard Chance" = 0.0
+
+		#Eighzo Ore Settings
+		["World Generation"."Ore Generation"."Eighzo Ore Settings"]
+			#Range: > 0
+			"Eighzo Size" = 4
+			#Chance that that the generated blob will be discarded (ungenerated) if exposed to air
+			#Range: 0.0 ~ 1.0
+			"Eighzo Exposed Discard Chance" = 0.5
+
+		#Ore Deposits: Large cluster of ore and raw block, more compact than an ore vein, but bigger than an ore blob.
+		["World Generation"."Ore Generation"."Ore Deposit Generation"]
+			#Prevent the generation of ore deposits with exposure to the world's surface
+			"Disallow surface ore deposits" = false
+
+#Primitive Stirling Generator Settings
+["Primitive Stirling Generator"]
+	#Maximum power for the Primitive Stirling Generator to store
+	#Range: > 0
+	"Maximum Power" = 100000
+	#Power generation per tick
+	#Range: > 0
+	"Generation (Per Tick)" = 40
+	#Power generation to send per tick
+	#Range: > 0
+	"Output Rate" = 1000
+
+#Crusher Settings
+[Crusher]
+	#Maximum power for the Crusher to store
+	#Range: > 0
+	"Maximum Power" = 5000
+	#Power consumption per tick for the Crusher
+	#Range: > 0
+	"Power Consumption" = 40
+	#Power I/O per tick for the Crusher
+	#Range: > 0
+	"Maximum Transfer" = 1000
+
+#Electrolyzer Settings
+[Electrolyzer]
+	#Maximum Power for the Electrolyzer to store
+	#Range: > 0
+	"Maximum Power" = 5000
+	#Power consumption per tick for the Electrolyzer
+	#Range: > 0
+	"Power Consumption" = 40
+	#Power I/O per tick for the Electrolyzer
+	#Range: > 0
+	"Maximum Transfer" = 1000
+
+#Centrifugal Agitator Settings
+["Centrifugal Agitator"]
+	#Maximum Power for the Centrifugal Agitator to store
+	#Range: > 0
+	"Maximum Power" = 5000
+	#Power consumption per tick for the Centrifugal Agitator
+	#Range: > 0
+	"Power Consumption" = 40
+	#Power I/O per tick for the Centrifugal Agitator
+	#Range: > 0
+	"Maximum Transfer" = 1000
+
+#Compressor Settings
+[Compressor]
+	#Maximum Power for the Compressor to store
+	#Range: > 0
+	"Maximum Power" = 5000
+	#Power consumption per tick for the Compressor
+	#Range: > 0
+	"Power Consumption" = 40
+	#Power I/O per tick for the Compressor
+	#Range: > 0
+	"Maximum Transfer" = 1000
+
+#Stirling Generator Settings
+["Stirling Generator"]
+	#Maximum Power for the Stirling Generator to store
+	#Range: > 0
+	"Maximum Power" = 5120000
+	#Fallback value for power generation for the Stirling Generator
+	#Range: > 0
+	"Fallback Generation Rate" = 128
+	#Maximum power to send out per tick for the Stirling Generator
+	#Range: > 0
+	"Maximum Transfer" = 128000
+
+#Combustion Generator Settings
+["Combustion Generator"]
+	#Maximum Power for the Combustion Generator to store
+	#Range: > 0
+	"Maximum Power" = 5120000
+	#Maximum power to send out per tick for the Combustion Generator
+	#Range: > 0
+	"Maximum Transfer" = 512000
+	#If true, the Combustion Generator will use the process time from the oxidizer's recipe rather than the static process time
+	"Balanced Mode" = false
+	#The fixed process time for the Combustion Generator is Balanced Mode is not used.
+	#Range: > 0
+	"Fixed Process Time" = 1600
+
+#Aqueoulizer Settings
+[Aqueoulizer]
+	#Maximum Power for the Aqueoulizer to store
+	#Range: > 0
+	"Maximum Power" = 5000
+	#Power consumption per tick for the Aqueoulizer
+	#Range: > 0
+	"Power Consumption" = 40
+	#Power I/O per tick for the Aqueoulizer
+	#Range: > 0
+	"Maximum Transfer" = 1000
+
+#Air Compressor Settings
+["Air Compressor"]
+	#Maximum Power for the Air Compressor to store
+	#Range: > 0
+	"Maximum Power" = 5000
+	#Power consumption per tick for the Air Compressor
+	#Range: > 0
+	"Power Consumption" = 24
+	#Power I/O per tick for the Air Compressor
+	#Range: > 0
+	"Maximum Transfer" = 1000
+
+#Distillation Unit Settings
+["Distillation Unit"]
+	#Maximum Power for the Distillation Unit to store
+	#Range: > 0
+	"Maximum Power" = 5000
+	#Power consumption per tick for the Distillation Unit
+	#Range: > 0
+	"Power Consumption" = 64
+	#Power I/O per tick for the Distillation Unit
+	#Range: > 0
+	"Maximum Transfer" = 2500
+
+#Pump Settings
+[Pump]
+	#Maximum Power for the Pump to store
+	#Range: > 0
+	"Maximum Power" = 5000
+	#Power consumption per tick for the Pump
+	#Range: > 0
+	"Power Consumption" = 16
+	#Power I/O per tick for the Pump
+	#Range: > 0
+	"Maximum Transfer" = 1000
+
+#Electric Furnace Settings
+["Electric Furnace"]
+	#Maximum Power for the Electric Furnace to store
+	#Range: > 0
+	"Maximum Power" = 5000
+	#Power consumption per tick for the Electric Furnace
+	#Range: > 0
+	"Power Consumption" = 64
+	#Power I/O per tick for the Electric Furnace
+	#Range: > 0
+	"Maximum Transfer" = 1000
+
+#Battery Box Settings
+["Battery Box"]
+	#Maximum Power for the Battery Box to store
+	#Range: > 0
+	"Maximum Power" = 50000
+	#Power I/O per tick for the Battery Box
+	#Range: > 0
+	"Maximum Transfer" = 5000
+
+#Primitive Solar Panel
+["Primitive Solar Panel"]
+	#Maximum Power for the Primitive Solar Panel to store
+	#Range: > 0
+	"Maximum Power" = 100000
+	#Value for power generation for the Primitive Solar Panel
+	#Range: > 0
+	"Generation Rate" = 64
+	#Maximum power to send out per tick for the Primitive Solar Panel
+	#Range: > 0
+	"Maximum Transfer" = 1000
+
+#Solar Panel
+["Solar Panel"]
+	#Maximum Power for the Solar Panel to store
+	#Range: > 0
+	"Maximum Power" = 250000
+	#Value for power generation for the Solar Panel
+	#Range: > 0
+	"Generation Rate" = 128
+	#Maximum power to send out per tick for the Solar Panel
+	#Range: > 0
+	"Maximum Transfer" = 5000
+
+#Centrifugal Separator
+["Centrifugal Separator"]
+	#Maximum Power for the Centrifugal Separator to store
+	#Range: > 0
+	"Maximum Power" = 5000
+	#Power consumption per tick for the Centrifugal Separator
+	#Range: > 0
+	"Power Consumption" = 40
+	#Power I/O per tick for the Centrifugal Separator
+	#Range: > 0
+	"Maximum Transfer" = 1000
+
+#Implosion Compressor
+["Implosion Compressor"]
+	#Maximum Power for the Implosion Compressor to store
+	#Range: > 0
+	"Maximum Power" = 128000
+	#Power consumption per tick for the Implosion Compressor
+	#Range: > 0
+	"Power Consumption" = 128
+	#Power I/O per tick for the Implosion Compressor
+	#Range: > 0
+	"Maximum Transfer" = 2500
+
+#Blast Furnace
+["Blast Furnace"]
+	#Maximum Power for the Blast Furnace to store
+	#Range: > 0
+	"Maximum Power" = 512000
+	#Power consumption per tick for the Blast Furnace
+	#Range: > 0
+	"Power Consumption" = 256
+	#Power I/O per tick for the Blast Furnace
+	#Range: > 0
+	"Maximum Transfer" = 10000
+	#Amount of fluid that is consumed per blasting operation for heat
+	#Range: 0 ~ 4000
+	"Heat Source Consumption" = 50
+
+#Sawmill
+[Sawmill]
+	#Maximum Power for the Sawmill to store
+	#Range: > 0
+	"Maximum Power" = 512000
+	#Power consumption per tick for the Sawmill
+	#Range: > 0
+	"Power Consumption" = 64
+	#Power I/O per tick for the Sawmill
+	#Range: > 0
+	"Maximum Transfer" = 10000
+	#true/false, Allow the use of logs that don't have a proper Sawmill recipe
+	"Allow logs without recipe" = true
+	#Resource Location of the fluid that will be generated when processing a log without a recipe
+	"Fluid location" = "voluminousenergy:tree_sap"
+	#Amount of fluid that will be generated when processing a log without a recipe
+	#Range: 0 ~ 4000
+	"Fluid Amount" = 250
+	#Resource Location of the second output item when processing a log without a recipe
+	"Second output item resource location" = "voluminousenergy:saw_dust"
+	#Item count of the second output item when processing a log without a recipe
+	#Range: 0 ~ 64
+	"Second output count" = 1
+	#Processing time when processing a log without a recipe
+	#Range: > 0
+	"Processing time" = 200
+	#Amount of the primary item (typically a plank) that will be generated when finished processing a log without a recipe
+	#Range: 1 ~ 64
+	"Primary output count" = 6
+	#Amount of the input item (typically a log) that will be consumed when finished processing a log without a recipe
+	#Range: 1 ~ 64
+	"Number of logs to consume" = 1
+
+#Tank Blocks
+["Tank Blocks"]
+	#Maximum tank capacity in Buckets
+	#Range: 0 ~ 2147483
+	"Solarium Tank Capacity" = 2147483
+	#Maximum tank capacity in Buckets
+	#Range: 0 ~ 2147483
+	"Eighzo Tank Capacity" = 536870
+	#Maximum tank capacity in Buckets
+	#Range: 0 ~ 2147483
+	"Nighalite Tank Capacity" = 67108
+	#Maximum tank capacity in Buckets
+	#Range: 0 ~ 2147483
+	"Netherite Tank Capacity" = 8388
+	#Maximum tank capacity in Buckets
+	#Range: 0 ~ 2147483
+	"Titanium Tank Capacity" = 524
+	#Maximum tank capacity in Buckets
+	#Range: 0 ~ 2147483
+	"Aluminum Tank Capacity" = 64
+
+#Tooling Station
+["Tooling Station"]
+	#Maximum Power for the Tooling Station to store
+	#Range: > 0
+	"Maximum Power" = 5000
+	#Power I/O per tick for the Tooling Station
+	#Range: > 0
+	"Maximum Transfer" = 1000
+
+#Fluid Electrolyzer
+["Fluid Electrolyzer"]
+	#Maximum Power for the Fluid Electrolyzer to store
+	#Range: > 0
+	"Maximum Power" = 128000
+	#Power consumption per tick for the Fluid Electrolyzer
+	#Range: > 0
+	"Power Consumption" = 128
+	#Power I/O per tick for the Fluid Electrolyzer
+	#Range: > 0
+	"Maximum Transfer" = 25000
+
+#Fluid Mixer
+["Fluid Mixer"]
+	#Maximum Power for the Fluid Mixer to store
+	#Range: > 0
+	"Maximum Power" = 128000
+	#Power consumption per tick for the Fluid Mixer
+	#Range: > 0
+	"Power Consumption" = 96
+	#Power I/O per tick for the Fluid Mixer
+	#Range: > 0
+	"Maximum Transfer" = 25000
+
+#Hydroponic Incubator
+["Hydroponic Incubator"]
+	#Maximum Power for the Hydroponic Incubator to store
+	#Range: > 0
+	"Maximum Power" = 128000
+	#Power consumption per tick for the Hydroponic Incubator
+	#Range: > 0
+	"Power Consumption" = 96
+	#Power I/O per tick for the Hydroponic Incubator
+	#Range: > 0
+	"Maximum Transfer" = 25000
+
+#Dimensional Laser
+["Dimensional Laser"]
+	#Maximum Power for the Dimensional Laser to store
+	#Range: > 0
+	"Maximum Power" = 536870911
+	#Power consumption per tick for the Dimensional Laser
+	#Range: > 0
+	"Power Consumption" = 1024
+	#Power I/O per tick for the Dimensional Laser
+	#Range: > 0
+	"Maximum Transfer" = 134217727
+	#For each time an extraction is complete, how much fluid should be extracted from the chunk and placed in the output tank
+	#Range: 0 ~ 4000
+	"Fluid Extraction Rate" = 250
+	#How long should it take (it ticks) to extract a fluid from a chunk for a single extraction
+	#Range: > 0
+	"Process Time" = 20
+

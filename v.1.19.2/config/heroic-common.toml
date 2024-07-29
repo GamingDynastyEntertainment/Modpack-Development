@@ -1,0 +1,7 @@
+#This number adds how much damage every weapon does.
+#Range: 0 ~ 20
+weapon = 1
+#This number exponentially multiplies how rare the weapons are relative to each other (0 means any container will have a weapon, 5 means they won't spawn, greater than 1 will decrease spawn, less spawn will increase)
+#Range: 0 ~ 5
+rarity = 1
+
