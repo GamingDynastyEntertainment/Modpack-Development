@@ -2,7 +2,7 @@
 # Here you can configure stuff, mostly enabling/disabling specific optimizations.
 
 # Whether we should cancel updating the lightmap if not needed.
-enable_lightmap_caching: false
+enable_lightmap_caching: true
 # How much the in-game time must change in ticks (1/20th of a second)
 # for the lightmap to immediately update.
 # Higher values will result in less frequent updates
