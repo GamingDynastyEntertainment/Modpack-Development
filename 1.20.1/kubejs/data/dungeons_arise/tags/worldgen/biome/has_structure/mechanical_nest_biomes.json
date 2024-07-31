@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp",
+    "#minecraft:is_forest",
+    "regions_unexplored:bayou",
+    "regions_unexplored:fen",
+    "regions_unexplored:fungal_fen",
+    "regions_unexplored:marsh",
+    "regions_unexplored:old_growth_bayou"
+  ]
+}

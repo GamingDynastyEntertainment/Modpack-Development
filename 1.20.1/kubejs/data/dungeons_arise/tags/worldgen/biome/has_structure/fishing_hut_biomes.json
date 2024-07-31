@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:is_beach",
+    "regions_unexplored:gravel_beach",
+    "regions_unexplored:grassy_beach"
+
+  ]
+}

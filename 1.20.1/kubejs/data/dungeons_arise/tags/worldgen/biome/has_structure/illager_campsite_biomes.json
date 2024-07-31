@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:plains",
+    "minecraft:meadow",
+    "minecraft:sunflower_plains",
+    "#minecraft:is_hill",
+    "regions_unexplored:towering_cliffs",
+    "regions_unexplored:icy_heights",
+    "regions_unexplored:barley_fields",
+    "regions_unexplored:flower_fields",
+    "regions_unexplored:grassland",
+    "regions_unexplored:clover_plains",
+    "regions_unexplored:rocky_meadow",
+    "regions_unexplored:poppy_fields",
+    "regions_unexplored:prairie",
+    "regions_unexplored:pumpkin_fields",
+    "regions_unexplored:shrubland"
+  ]
+}

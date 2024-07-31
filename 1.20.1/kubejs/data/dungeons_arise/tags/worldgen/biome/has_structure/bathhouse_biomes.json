@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:dark_forest",
+    "minecraft:sunflower_plains",
+    "minecraft:snowy_taiga",
+    "#minecraft:is_taiga",
+    "minecraft:savanna"
+  ]
+}

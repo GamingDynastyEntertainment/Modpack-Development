@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:desert",
+    "#minecraft:has_structure/desert_pyramid",
+    "regions_unexplored:joshua_desert",
+    "regions_unexplored:saguaro_desert",
+    "regions_unexplored:outback"
+  ]
+}
