@@ -4,6 +4,7 @@ Welcome to the brand new GitHub for DexxKnight1, GeekTechMedia, Legion, and Mode
 - Issue Tracker for all of our projects we are currently working on or have coming out down the road
 - Branches for each one of our Modpacks that we are currently working on or have plans to work on down the road
 - We have moved the change logs for our packs to a new location. Check out Changelogs.md on the Modpack Branches to see if there is a changelog on said branch.
+- Projects organized by Minecraft Version, Example 1.20.1
 
 
 
