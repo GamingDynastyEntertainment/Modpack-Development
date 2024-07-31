@@ -3,7 +3,7 @@ Welcome to the brand new Issue Tracker for DexxKnight, GeekTechMedia, Legion, an
 
 
 
-## DexxKnight1's Links
+#### DexxKnight1's Links
 
 [![KnightDexx's Patreon](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/donate/patreon-singular_46h.png "KnightDexx's Patreon")](https://www.patreon.com/KnightDexx)
 [![KnightDexx Ko-Fi](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/donate/kofi-singular_46h.png "KnightDexx's Ko-Fi")](https://ko-fi.com/dexxknight)
@@ -21,7 +21,7 @@ Welcome to the brand new Issue Tracker for DexxKnight, GeekTechMedia, Legion, an
 [![Legion's Discord](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/social/discord-singular_46h.png "Creativity Unbound Discord")](https://discord.gg/FMsaFgRda5)
 [![Legion's Twitch](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/social/twitch-singular_46h.png "Legion_usa's Twitch")](https://www.twitch.tv/legion_usa)
 
-###### ModernGamingWorld's Links
+#### ModernGamingWorld's Links
 
 [![ModernGamingWorld's Patreon](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/donate/patreon-singular_46h.png "ModernGamingWorld's Patreon")](https://www.patreon.com/ModernGamingWorld)
 [![ModernGamingWorld's Ko-Fi](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/donate/kofi-singular_46h.png "ModernGamingWorld's Ko-Fi")](https://ko-fi.com/moderngamingworld)
