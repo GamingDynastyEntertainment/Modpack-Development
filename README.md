@@ -1,5 +1,9 @@
 # Modpack-Development
-Welcome to the brand new Issue Tracker for DexxKnight, GeekTechMedia, Legion, and ModernGamingWorld
+Welcome to the brand new GitHub for DexxKnight1, GeekTechMedia, Legion, and ModernGamingWorld. On this GitHub, you are going to find the following:
+
+- Issue Tracker for all of our projects we are currently working on or have coming out down the road
+- Branches for each one of our Modpacks that we are currently working on or have plans to work on down the road
+- We have moved the change logs for our packs to a new location. Check out Changelogs.md on the Modpack Branches to see if there is a changelog on said branch.
 
 
 
