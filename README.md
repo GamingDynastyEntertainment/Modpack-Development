@@ -1,2 +1,4 @@
-# Modpack-Development
-Welcome to the New Issue tracker for Modpacks Develop by GeekTechMedia, DexxKnight1, and ModernGamingWorld
+# Dimensions & Dungeoneering
+Dimensions & Dungeoneering is a modpack built around the RPG and Adventure style. With plenty of Dimensions and Dungeons to explore, there is never a shortage of things to do! However, that doesn't mean people who like tech, magic, building, or other things won't like this pack. When building it, I tried to include something for everyone. So, while exploring the dimensions is certainly encouraged, it isn't necessary. If you want to build magnificent modded structures, there are certain mods for that! If you want to delve into magic, explore Ars Nouveau, Pedestals, Eidolon, or Occultism! Do you just want to build technological marvels? There are mods for you as well!
+
+Overall, I have tried to create a pack that everyone will enjoy and have included some quests to help you with that! I'm going to be adding more quests as time progresses too so be on the lookout!
