@@ -21,11 +21,6 @@ Welcome to the brand new GitHub for DexxKnight1, GeekTechMedia, Legion, and Mode
 [![GeekTechMedia's Discord](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/social/discord-singular_46h.png "GeekTechMedia's Discord")](https://discord.gg/ZeyGj379tA)
 [![GeekTechMedia's Youtube](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/social/youtube-singular_46h.png "GeekTechMedia's Youtube")](https://www.youtube.com/@GeekTechMedia)
 
-## Legion's Links
-
-[![Legion's Discord](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/social/discord-singular_46h.png "Creativity Unbound Discord")](https://discord.gg/FMsaFgRda5)
-[![Legion's Twitch](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/social/twitch-singular_46h.png "Legion_usa's Twitch")](https://www.twitch.tv/legion_usa)
-
 ## ModernGamingWorld's Links
 
 [![ModernGamingWorld's Patreon](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/donate/patreon-singular_46h.png "ModernGamingWorld's Patreon")](https://www.patreon.com/ModernGamingWorld)
